@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>twitch2yt — политика конфиденциальности</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 48px 20px;
+    font: 16px/1.65 -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    color: #1a1a1a;
+    background: #f6f7f9;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #e3e6ea;
+    border-radius: 12px;
+    padding: 40px 44px;
+  }
+  h1 { font-size: 26px; margin: 0 0 6px; letter-spacing: -0.01em; }
+  .sub { color: #6b7280; font-size: 14px; margin: 0 0 32px; }
+  h2 { font-size: 17px; margin: 32px 0 10px; }
+  p, li { color: #24292f; }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  code {
+    background: #f2f4f7;
+    border-radius: 5px;
+    padding: 2px 6px;
+    font-size: 13.5px;
+  }
+  footer {
+    margin-top: 36px;
+    padding-top: 18px;
+    border-top: 1px solid #e3e6ea;
+    font-size: 13.5px;
+    color: #6b7280;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { background: #111418; color: #e6e8eb; }
+    main { background: #171b21; border-color: #262c35; }
+    p, li { color: #d3d7dd; }
+    code { background: #222831; }
+    footer { border-color: #262c35; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>twitch2yt</h1>
+  <p class="sub">Политика конфиденциальности · личное приложение</p>
+
+  <p>
+    twitch2yt — личное приложение для записи трансляций на Twitch и загрузки
+    записей на собственный канал YouTube. Приложение используется одним
+    человеком — владельцем канала, — и не предоставляется другим пользователям.
+  </p>
+
+  <h2>Какие данные использует приложение</h2>
+  <p>
+    Приложение запрашивает единственную область доступа Google:
+    <code>https://www.googleapis.com/auth/youtube.upload</code> — загрузка видео
+    на канал YouTube.
+  </p>
+  <ul>
+    <li>Приложение не читает список видео, статистику и комментарии.</li>
+    <li>Приложение не имеет доступа к контактам, почте, диску и другим сервисам аккаунта.</li>
+    <li>Приложение не запрашивает и не хранит пароль от Google-аккаунта.</li>
+  </ul>
+
+  <h2>Хранение данных</h2>
+  <p>
+    Данные авторизации (файл <code>token.json</code>) хранятся только на
+    компьютере владельца канала. Видеофайлы обрабатываются локально и
+    загружаются напрямую в YouTube через официальный API.
+  </p>
+
+  <h2>Передача данных третьим лицам</h2>
+  <p>
+    Приложение не собирает, не продаёт и не передаёт персональные данные
+    третьим лицам. Данные не используются для рекламы и аналитики.
+  </p>
+
+  <h2>Отзыв доступа</h2>
+  <p>
+    Доступ приложения можно в любой момент отозвать на странице
+    <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+    После отзыва приложение теряет возможность загружать видео.
+  </p>
+
+  <h2>Контакты</h2>
+  <p>
+    По любым вопросам, связанным с приложением:
+    <a href="mailto:space.alex.kln@gmail.com">space.alex.kln@gmail.com</a>
+  </p>
+
+  <footer>
+    Эта страница выполняет роль политики конфиденциальности приложения twitch2yt
+    и его домашней страницы.
+  </footer>
+</main>
+</body>
+</html>
